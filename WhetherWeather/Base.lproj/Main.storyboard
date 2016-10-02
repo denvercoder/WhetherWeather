@@ -16,7 +16,7 @@
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView userInteractionEnabled="NO" alpha="0.75" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="weatherappbackgroundimage.png" translatesAutoresizingMaskIntoConstraints="NO" id="VMb-Gr-8aw"/>
@@ -45,7 +45,7 @@
                                     <action selector="submit:" destination="BYZ-38-t0r" eventType="touchUpInside" id="1lm-Nm-0B0"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="5" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oFO-UE-Ppr">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="6" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oFO-UE-Ppr">
                                 <fontDescription key="fontDescription" type="system" pointSize="15"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -61,7 +61,7 @@
                             <constraint firstItem="cWF-7g-mZT" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="29" id="Jy0-6U-GqH"/>
                             <constraint firstAttribute="trailing" secondItem="VMb-Gr-8aw" secondAttribute="trailing" id="Mey-Oq-Lrc"/>
                             <constraint firstAttribute="trailingMargin" secondItem="cWF-7g-mZT" secondAttribute="trailing" id="Mv4-em-tCr"/>
-                            <constraint firstItem="oFO-UE-Ppr" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" constant="58" id="PY8-zJ-UBB"/>
+                            <constraint firstItem="oFO-UE-Ppr" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" constant="10" id="PY8-zJ-UBB"/>
                             <constraint firstAttribute="trailingMargin" secondItem="oFO-UE-Ppr" secondAttribute="trailing" id="Q6k-O1-yAv"/>
                             <constraint firstItem="XxB-NQ-4TE" firstAttribute="top" secondItem="tKd-Sc-PrD" secondAttribute="bottom" constant="8" id="Vh0-4O-Jga"/>
                             <constraint firstItem="XxB-NQ-4TE" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="WGk-wp-UF1"/>
@@ -71,7 +71,7 @@
                             <constraint firstItem="tKd-Sc-PrD" firstAttribute="top" secondItem="cWF-7g-mZT" secondAttribute="bottom" constant="7" id="ctl-qe-mME"/>
                             <constraint firstItem="tKd-Sc-PrD" firstAttribute="top" secondItem="cWF-7g-mZT" secondAttribute="bottom" constant="7" id="flI-pm-88o"/>
                             <constraint firstItem="XxB-NQ-4TE" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailingMargin" id="h02-Wh-rFv"/>
-                            <constraint firstItem="86K-s7-cFy" firstAttribute="top" secondItem="XxB-NQ-4TE" secondAttribute="bottom" constant="8" id="yEO-Dv-zGf"/>
+                            <constraint firstItem="86K-s7-cFy" firstAttribute="top" secondItem="XxB-NQ-4TE" secondAttribute="bottom" constant="23" id="yEO-Dv-zGf"/>
                             <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="VMb-Gr-8aw" secondAttribute="bottom" id="ybR-G5-Mm1"/>
                             <constraint firstItem="86K-s7-cFy" firstAttribute="centerX" secondItem="XxB-NQ-4TE" secondAttribute="centerX" id="z8F-Lp-DKG"/>
                         </constraints>

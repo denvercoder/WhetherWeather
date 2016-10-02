@@ -16,8 +16,7 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
-        
-        result.text = "Partly cloudy with a chance of this app being AWESOME!"
+
         
     }
 
@@ -28,6 +27,12 @@ class ViewController: UIViewController {
 
     @IBAction func submit(_ sender: AnyObject) {
         
+        cityTextBox.text = ""
+        
+        let summary = "Mostly dry. Warm (max 81°F on Sun afternoon, min 45°F on Mon night). Winds increasing (light winds from the WSW on Sun morning, fresh winds from the SW by Mon afternoon)."
+        
+        result.text = cityTextBox.text! + " 1 – 3 Day Weather Forecast Summary: " + summary
+
     }
     
     override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
