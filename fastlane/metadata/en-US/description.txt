@@ -1,0 +1,3 @@
+This weather app will give you a very detailed summary of the weather, and whether or not you should bring an umbrella.
+
+Going on a trip? Use this app to see what the weather is like in your destination city, and whether or not you should stay home.

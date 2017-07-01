@@ -7,6 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D790CE2D1F0764C20016B365 /* GoogleMobileAds.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D790CE2C1F0764C20016B365 /* GoogleMobileAds.framework */; };
+		D790CE301F0764E30016B365 /* EventKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D790CE2E1F0764E30016B365 /* EventKit.framework */; };
+		D790CE311F0764E30016B365 /* EventKitUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D790CE2F1F0764E30016B365 /* EventKitUI.framework */; };
+		D790CE331F0764EC0016B365 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D790CE321F0764EC0016B365 /* AVFoundation.framework */; };
+		D790CE351F0764F70016B365 /* AdSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D790CE341F0764F70016B365 /* AdSupport.framework */; };
+		D790CE371F0765100016B365 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D790CE361F0765100016B365 /* AudioToolbox.framework */; };
+		D790CE391F0765490016B365 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D790CE381F0765490016B365 /* CoreGraphics.framework */; };
+		D790CE3B1F0765530016B365 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D790CE3A1F0765530016B365 /* CoreTelephony.framework */; };
+		D790CE3D1F07655E0016B365 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D790CE3C1F07655E0016B365 /* CoreMedia.framework */; };
+		D790CE3F1F0765670016B365 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D790CE3E1F0765670016B365 /* MessageUI.framework */; };
+		D790CE411F07656F0016B365 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D790CE401F07656F0016B365 /* StoreKit.framework */; };
+		D790CE431F0765780016B365 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D790CE421F0765780016B365 /* SystemConfiguration.framework */; };
 		D7A116A31DA0EBD800E8D4FC /* weatherappbackgroundimage.png in Resources */ = {isa = PBXBuildFile; fileRef = D7A116A21DA0EBD800E8D4FC /* weatherappbackgroundimage.png */; };
 		D7D1FBAD1DA0E6CB0011824B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7D1FBAC1DA0E6CB0011824B /* AppDelegate.swift */; };
 		D7D1FBAF1DA0E6CB0011824B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7D1FBAE1DA0E6CB0011824B /* ViewController.swift */; };
@@ -16,6 +28,18 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		D790CE2C1F0764C20016B365 /* GoogleMobileAds.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleMobileAds.framework; path = WhetherWeather/GoogleMobileAds.framework; sourceTree = "<group>"; };
+		D790CE2E1F0764E30016B365 /* EventKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = EventKit.framework; path = System/Library/Frameworks/EventKit.framework; sourceTree = SDKROOT; };
+		D790CE2F1F0764E30016B365 /* EventKitUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = EventKitUI.framework; path = System/Library/Frameworks/EventKitUI.framework; sourceTree = SDKROOT; };
+		D790CE321F0764EC0016B365 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		D790CE341F0764F70016B365 /* AdSupport.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AdSupport.framework; path = System/Library/Frameworks/AdSupport.framework; sourceTree = SDKROOT; };
+		D790CE361F0765100016B365 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		D790CE381F0765490016B365 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		D790CE3A1F0765530016B365 /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+		D790CE3C1F07655E0016B365 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		D790CE3E1F0765670016B365 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+		D790CE401F07656F0016B365 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		D790CE421F0765780016B365 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		D7A116A21DA0EBD800E8D4FC /* weatherappbackgroundimage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = weatherappbackgroundimage.png; sourceTree = "<group>"; };
 		D7D1FBA91DA0E6CB0011824B /* WhetherWeather.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WhetherWeather.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D7D1FBAC1DA0E6CB0011824B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -31,17 +55,49 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D790CE431F0765780016B365 /* SystemConfiguration.framework in Frameworks */,
+				D790CE411F07656F0016B365 /* StoreKit.framework in Frameworks */,
+				D790CE3F1F0765670016B365 /* MessageUI.framework in Frameworks */,
+				D790CE3D1F07655E0016B365 /* CoreMedia.framework in Frameworks */,
+				D790CE3B1F0765530016B365 /* CoreTelephony.framework in Frameworks */,
+				D790CE391F0765490016B365 /* CoreGraphics.framework in Frameworks */,
+				D790CE331F0764EC0016B365 /* AVFoundation.framework in Frameworks */,
+				D790CE371F0765100016B365 /* AudioToolbox.framework in Frameworks */,
+				D790CE351F0764F70016B365 /* AdSupport.framework in Frameworks */,
+				D790CE301F0764E30016B365 /* EventKit.framework in Frameworks */,
+				D790CE311F0764E30016B365 /* EventKitUI.framework in Frameworks */,
+				D790CE2D1F0764C20016B365 /* GoogleMobileAds.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		D790CE2B1F0764C10016B365 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D790CE421F0765780016B365 /* SystemConfiguration.framework */,
+				D790CE401F07656F0016B365 /* StoreKit.framework */,
+				D790CE3E1F0765670016B365 /* MessageUI.framework */,
+				D790CE3C1F07655E0016B365 /* CoreMedia.framework */,
+				D790CE3A1F0765530016B365 /* CoreTelephony.framework */,
+				D790CE381F0765490016B365 /* CoreGraphics.framework */,
+				D790CE361F0765100016B365 /* AudioToolbox.framework */,
+				D790CE341F0764F70016B365 /* AdSupport.framework */,
+				D790CE321F0764EC0016B365 /* AVFoundation.framework */,
+				D790CE2E1F0764E30016B365 /* EventKit.framework */,
+				D790CE2F1F0764E30016B365 /* EventKitUI.framework */,
+				D790CE2C1F0764C20016B365 /* GoogleMobileAds.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		D7D1FBA01DA0E6CB0011824B = {
 			isa = PBXGroup;
 			children = (
 				D7D1FBAB1DA0E6CB0011824B /* WhetherWeather */,
 				D7D1FBAA1DA0E6CB0011824B /* Products */,
+				D790CE2B1F0764C10016B365 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -94,7 +150,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0800;
-				LastUpgradeCheck = 0800;
+				LastUpgradeCheck = 0830;
 				ORGANIZATIONNAME = "Denver Coder";
 				TargetAttributes = {
 					D7D1FBA81DA0E6CB0011824B = {
@@ -186,6 +242,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -236,6 +293,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -265,13 +323,20 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CURRENT_PROJECT_VERSION = 2;
 				DEVELOPMENT_TEAM = 88UZ84VZEF;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/WhetherWeather",
+				);
 				INFOPLIST_FILE = WhetherWeather/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.denvercoder.WhetherWeather;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = 1;
+				VERSIONING_SYSTEM = "apple-generic";
 			};
 			name = Debug;
 		};
@@ -279,13 +344,20 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CURRENT_PROJECT_VERSION = 2;
 				DEVELOPMENT_TEAM = 88UZ84VZEF;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/WhetherWeather",
+				);
 				INFOPLIST_FILE = WhetherWeather/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.denvercoder.WhetherWeather;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = 1;
+				VERSIONING_SYSTEM = "apple-generic";
 			};
 			name = Release;
 		};
